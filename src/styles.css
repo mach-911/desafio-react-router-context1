@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px 0;
+}
+
+nav {
+  background: darkgreen;
+}
+.menu li {
+  margin: 0 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+.link:hover {
+  color: yellow;
+}
+
+.card {
+  cursor: pointer;
+}
